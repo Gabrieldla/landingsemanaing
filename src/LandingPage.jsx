@@ -111,7 +111,8 @@ const sections = {
       title: "10:00 AM - Acto Académico de Inauguración",
       description: "Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y discurso inaugural del Decano Dr. Ing. Santiago Fidel Rojas Tuya. Saludo del Embajador de Indonesia Sr. Ricky Suhendar y ponencia del Sr. Wahyu Agung Nugroho sobre cooperación Perú-Indonesia (CEPA). Premiación al Mérito Académico para estudiantes destacados 2024-II y 2025-I. Palabras del Rector, presentación del Grupo 'Canta Palma URP' y brindis de honor. Lugar: Auditorio Ollantaytambo.",
       imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
-      carouselImages: ["/AUDITORIO7.jpg", "/AUDITORIO8.jpg", "/AUDITORIO9.jpg", "/PREMIO4.jpg", "/PREMIO5.jpg"]
+      carouselImages: ["/AUDITORIO7.jpg", "/AUDITORIO8.jpg", "/AUDITORIO9.jpg", "/PREMIO4.jpg", "/PREMIO5.jpg"],
+      youtubeLink: "https://www.youtube.com/watch?v=k6l8k4Q4tlI&list=PL8jHySzs9Ce-UEq2c_wwpv6KZRiMIaVYh"
     },
     {
       id: 3,
@@ -250,7 +251,8 @@ const sections = {
       description: "Cierre oficial de la Semana de Ingeniería. Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y clausura del Decano Dr. Ing. Santiago Fidel Rojas Tuya. Reconocimiento a docentes con 25 y 50 años de servicio. Premiación del IV Concurso de Fotografía URP. Mensaje inspirador sobre el futuro de la ingeniería peruana y compromiso con la excelencia académica.",
       imageUrl: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop",
       carouselImages: ["/CLAUSURA.jpg", "/CLAUSURA2.jpg", "/CLAUSURA3.jpg", "/CLAUSURA4.jpg"],
-      videoLink: "https://www.facebook.com/share/v/17GhxMY7CH/"
+      videoLink: "https://www.facebook.com/share/v/17GhxMY7CH/",
+      youtubeLink: "https://www.youtube.com/watch?v=Le78gbI1qsU"
     }
   ]
 };
@@ -600,21 +602,38 @@ const LandingPage = () => {
                           <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-3 md:mb-4">
                             {section.description}
                           </p>
-                          {section.videoLink && (
-                            <a
-                              href={section.videoLink}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-2 md:gap-3 bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 rounded-lg md:rounded-xl font-bold text-sm sm:text-base md:text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
-                              style={{ color: 'white' }}
-                            >
-                              <svg className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                              </svg>
-                              <span className="hidden sm:inline">Ver Transmisión en Facebook</span>
-                              <span className="sm:hidden">Ver en Facebook</span>
-                            </a>
-                          )}
+                          <div className="flex flex-col sm:flex-row gap-3">
+                            {section.videoLink && (
+                              <a
+                                href={section.videoLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center justify-center gap-2 md:gap-3 bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 rounded-lg md:rounded-xl font-bold text-sm sm:text-base md:text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
+                                style={{ color: 'white' }}
+                              >
+                                <svg className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                                <span className="hidden sm:inline">Ver Transmisión en Facebook</span>
+                                <span className="sm:hidden">Ver en Facebook</span>
+                              </a>
+                            )}
+                            {section.youtubeLink && (
+                              <a
+                                href={section.youtubeLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center justify-center gap-2 md:gap-3 bg-red-600 hover:bg-red-700 text-white px-4 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 rounded-lg md:rounded-xl font-bold text-sm sm:text-base md:text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"
+                                style={{ color: 'white' }}
+                              >
+                                <svg className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                                <span className="hidden sm:inline">Ver en YouTube</span>
+                                <span className="sm:hidden">YouTube</span>
+                              </a>
+                            )}
+                          </div>
                         </div>
                       </motion.div>
                     </div>
