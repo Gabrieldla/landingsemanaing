@@ -93,11 +93,11 @@ const Carousel = ({ images }) => {
   );
 };
 
-const weekDays = ['Inicio', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
+const weekDays = ['Inicio', 'Lunes 10', 'Martes 11', 'Miércoles 12', 'Jueves 13', 'Viernes 21'];
 
 const sections = {
   Inicio: [],
-  Lunes: [
+  'Lunes 10': [
     {
       id: 1,
       title: "9:30 AM - Acto Oficial de la Semana de la Facultad de Ingeniería",
@@ -133,7 +133,7 @@ const sections = {
       imageUrl: "/CONFERENCIA3LUNESS.jpg"
     }
   ],
-  Martes: [
+  'Martes 11': [
     {
       id: 8,
       title: "11:30 AM - II Feria ConstruCivil 2025",
@@ -171,7 +171,7 @@ const sections = {
       imageUrl: "/CONFERENCIA5MARETSS.jpg"
     }
   ],
-  Miércoles: [
+  'Miércoles 12': [
     {
       id: 15,
       title: "10:00 AM - El Algoritmo Verde y la IA en Infraestructura Sostenible",
@@ -221,7 +221,7 @@ const sections = {
       imageUrl: "/CONFERNCIA9MIERCOLES.jpg"
     }
   ],
-  Jueves: [
+  'Jueves 13': [
     {
       id: 26,
       title: "11:00 AM - Conferencia 'Becas de Postgrado en Indonesia' + Baile tradicional y Muestra de Cultura y Arte",
@@ -237,7 +237,7 @@ const sections = {
       imageUrl: "/CONFERENCIA2.jpg"
     }
   ],
-  Viernes: [
+  'Viernes 21': [
     {
       id: 32,
       title: "8:30 AM - 2:00 PM - Gymkhana",
@@ -305,6 +305,7 @@ const LandingPage = () => {
               <h1 className="text-2xl font-bold leading-tight">
                 Semana de Ingeniería 2025
               </h1>
+              <p className="text-sm mt-1 font-semibold">Del 10 al 14 de noviembre</p>
             </div>
             <img src="/logo-bvi-blanco.png" alt="BVI Logo" className="h-20 w-auto object-contain flex-shrink-0" />
           </div>
@@ -316,6 +317,7 @@ const LandingPage = () => {
               <h1 className="text-6xl font-bold">
                 Semana de Ingeniería 2025
               </h1>
+              <p className="text-2xl mt-2 font-semibold">Del 10 al 14 de noviembre</p>
             </div>
             <img src="/logo-bvi-blanco.png" alt="BVI Logo" className="h-32 w-auto object-contain flex-shrink-0" />
           </div>
