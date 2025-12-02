@@ -137,8 +137,8 @@ const sections = {
     {
       id: 8,
       title: "11:30 AM - II Feria ConstruCivil 2025",
-      description: "Feria que reunió empresas constructoras, proveedores y profesionales del sector. Exhibición de tecnología constructiva, maquinaria, software de diseño, materiales sostenibles y sistemas innovadores. Oportunidades laborales y networking entre estudiantes e industria. Lugar: 1er piso de la Facultad de Ingeniería. Organiza: Escuela Profesional de Ingeniería Civil.",
-      imageUrl: "/FERIACIVIL1.jpg"
+      description: "Dra. Enriqueta Pereyra, Directora de la Escuela Profesional de Ingeniería Civil, inauguro la II FERIA CONSTRUCIVIL, conto con la participación de los docentes de la Escuela y diferentes empresas invitadas del área de la construcción, evento realizado en el Aulario de Inca Roca.",
+      imageUrl: "/feria12.jpg"
     },
     {
       id: 9,
