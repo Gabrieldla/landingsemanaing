@@ -426,8 +426,7 @@ const LandingPage = () => {
             </div>
 
             {/* Jefa de Biblioteca Virtual */}
-            <div className="bg-white py-8 md:py-16 relative overflow-hidden">
-              {/* Efectos de fondo */}
+            {/* <div className="bg-white py-8 md:py-16 relative overflow-hidden">
               <div className="absolute inset-0 opacity-5">
                 <div className="absolute top-0 right-0 w-72 h-72 bg-green-200 rounded-full blur-3xl animate-pulse"></div>
                 <div className="absolute bottom-0 left-0 w-96 h-96 bg-green-200 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -443,7 +442,6 @@ const LandingPage = () => {
                   BIBLIOTECA VIRTUAL DE INGENIERÍA
                 </motion.h2>
                 <div className="flex flex-col md:flex-row gap-6 md:gap-12 items-start mt-6 md:mt-8">
-                  {/* Imagen de la Jefa */}
                   <motion.div 
                     data-aos="fade-right"
                     className="flex-shrink-0 w-full md:w-auto"
@@ -459,7 +457,6 @@ const LandingPage = () => {
                     </div>
                   </motion.div>
                   
-                  {/* Texto de Presentación */}
                   <motion.div 
                     data-aos="fade-left"
                     className="flex-1 w-full"
@@ -486,7 +483,7 @@ const LandingPage = () => {
                   </motion.div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Descripción de la Semana de Ingeniería */}
             <div className="bg-white py-8 md:py-16">
