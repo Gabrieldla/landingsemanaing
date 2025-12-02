@@ -182,7 +182,7 @@ const sections = {
       id: 15,
       title: "10:00 AM - El Algoritmo Verde y la IA en Infraestructura Sostenible",
       description: "Dr. Carlos Chavarry Vallejos expuso sobre IA aplicada en infraestructura sostenible. El 'Algoritmo Verde' combina análisis predictivo, optimización de recursos y reducción de impacto ambiental. Casos de éxito y posibilidades en Perú. Lugar: Vía Zoom. Organiza: Biblioteca Virtual de Ingeniería.",
-      imageUrl: "/CONFERENCIA1MIERCOLES.jpg"
+      imageUrl: "/1raconferencia_miercoles.jpg"
     },
     {
       id: 16,
