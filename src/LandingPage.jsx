@@ -200,7 +200,7 @@ const sections = {
       id: 18,
       title: "12:00 PM - Estrategias de Aprendizaje en la Era Digital con McGraw Hill",
       description: "Mg. Gustavo Orozco Aragón compartió estrategias de aprendizaje con McGraw Hill: recursos interactivos, evaluación adaptativa y seguimiento académico. Técnicas de estudio basadas en evidencia para mejorar comprensión y retención. Lugar: Vía Zoom. Organiza: Biblioteca Virtual de Ingeniería.",
-      imageUrl: "/editado6.png"
+      imageUrl: "/editado8.png"
     },
     {
       id: 20,
