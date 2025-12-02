@@ -188,7 +188,7 @@ const sections = {
       id: 16,
       title: "11:00 AM - Ian, el Asistente Académico con IA en la Biblioteca Ebook 7/24",
       description: "Mg. Ángel Revolledo Morán presentó a Ian, asistente académico con IA disponible 24/7. Ayuda a encontrar recursos, generar referencias y resumir artículos instantáneamente. Acelera investigación y mejora productividad académica. Lugar: Vía Zoom. Organiza: Biblioteca Virtual de Ingeniería.",
-      imageUrl: "/CONFERENICA2MIERCOLESA.jpg"
+      imageUrl: "/cambiaesto.jpg"
     },
     {
       id: 17,
