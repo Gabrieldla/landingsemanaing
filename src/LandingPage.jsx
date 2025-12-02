@@ -231,9 +231,10 @@ const sections = {
     {
       id: 26,
       title: "11:00 AM - Conferencia 'Becas de Postgrado en Indonesia' + Baile tradicional y Muestra de Cultura y Arte",
-      description: "Embajada de Indonesia presentó becas de postgrado para estudiantes peruanos, programas académicos y requisitos. Incluyó baile tradicional indonesio y muestra de cultura y arte. Oportunidad de intercambio académico y cultural Perú-Indonesia. Lugar: Auditorio Ollantaytambo. Organiza: Escuela Profesional de Ingeniería Industrial y Unidad de Extensión Cultural y Proyección Social.",
+      description: "Handayani Lintang Purwaning Ayu, Jefa de la Sección Cultural, Social y de Información, tuvo a su cargo la Conferencia: 'Becas de Postgrado en Indonesia'. La Embajada de Indonesia presentó becas de postgrado para estudiantes peruanos, programas académicos y requisitos. Incluyó baile tradicional indonesio y muestra de cultura y arte. Oportunidad de intercambio académico y cultural Perú-Indonesia. Lugar: Auditorio Ollantaytambo. Organiza: Escuela Profesional de Ingeniería Industrial y Unidad de Extensión Cultural y Proyección Social.",
       imageUrl: "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&h=600&fit=crop",
-      carouselImages: ["/CONFERENCIA1JUEVES.jpg", "/CONFRENCIA1JUVES}.jpg", "/BAILE1.jpg", "/CNFERENIA111.jpg"],
+      carouselImages: ["/cambio1.jpg", "/cambio2.jpg", "/cambio3.jpg", "/cambio4.jpg"]
+    },
       videoLink: "https://www.facebook.com/share/v/14KGPERGB6a/"
     },
     {
