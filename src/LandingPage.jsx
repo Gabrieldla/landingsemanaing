@@ -173,6 +173,12 @@ const sections = {
   ],
   'Miércoles 12': [
     {
+      id: 14,
+      title: "Inauguración del Ciclo de Conferencias Internacionales Tecnológicas",
+      description: "Dra. Alicia Chiok, Guerra, Jefe de la Biblioteca Virtual de Ingeniería, inauguro el Ciclo de Conferencias Internacionales Tecnológicas, evento organizado por la BVI.",
+      imageUrl: "/innauguracion.jpg"
+    },
+    {
       id: 15,
       title: "10:00 AM - El Algoritmo Verde y la IA en Infraestructura Sostenible",
       description: "Dr. Carlos Chavarry Vallejos expuso sobre IA aplicada en infraestructura sostenible. El 'Algoritmo Verde' combina análisis predictivo, optimización de recursos y reducción de impacto ambiental. Casos de éxito y posibilidades en Perú. Lugar: Vía Zoom. Organiza: Biblioteca Virtual de Ingeniería.",
