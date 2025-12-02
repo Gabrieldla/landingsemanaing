@@ -565,10 +565,10 @@ const LandingPage = () => {
                     transition={{ delay: index * 0.1 }}
                     className={`flex flex-col ${
                       index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                    } items-center gap-6 md:gap-12 mb-12 md:mb-24`}
+                    } items-center gap-4 md:gap-8 mb-8 md:mb-16`}
                   >
                     {/* Image - Left on even, Right on odd */}
-                    <div className="flex-1 w-full">
+                    <div className="flex-1 w-full max-w-md md:max-w-lg">
                       {section.carouselImages ? (
                         <Carousel images={section.carouselImages} />
                       ) : (
@@ -581,7 +581,7 @@ const LandingPage = () => {
                             <img
                               src={section.imageUrl}
                               alt={section.title}
-                              className="w-full h-[250px] sm:h-[300px] md:h-[400px] object-cover transform group-hover:scale-110 transition-transform duration-700"
+                              className="w-full h-[200px] sm:h-[250px] md:h-[300px] object-cover transform group-hover:scale-110 transition-transform duration-700"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent"></div>
                           </div>
@@ -600,11 +600,11 @@ const LandingPage = () => {
                           <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-white rounded-full animate-pulse"></span>
                           {selectedDay} • Evento {index + 1}
                         </div>
-                        <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-green-800 to-emerald-700 bg-clip-text text-transparent mb-4 md:mb-6 leading-tight">
+                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-green-800 to-emerald-700 bg-clip-text text-transparent mb-3 md:mb-4 leading-tight">
                           {section.title}
                         </h3>
-                        <div className="bg-gradient-to-br from-white to-green-50 rounded-xl md:rounded-2xl p-4 sm:p-5 md:p-6 border border-green-100 shadow-lg">
-                          <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-3 md:mb-4">
+                        <div className="bg-gradient-to-br from-white to-green-50 rounded-lg md:rounded-xl p-3 sm:p-4 md:p-5 border border-green-100 shadow-lg">
+                          <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed mb-2 md:mb-3">
                             {section.description}
                           </p>
                           <div className="flex flex-col sm:flex-row gap-2">
