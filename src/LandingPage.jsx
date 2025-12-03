@@ -37,8 +37,7 @@ const Carousel = ({ images }) => {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.95 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
-          className="w-full h-full object-cover"
-        />
+className="w-full h-full object-cover"        />
       </AnimatePresence>
       
       {/* Overlay gradiente sutil */}
@@ -93,7 +92,7 @@ const Carousel = ({ images }) => {
   );
 };
 
-const weekDays = ['Inicio', 'Lunes 10', 'Martes 11', 'Miércoles 12', 'Jueves 13', 'Viernes 21'];
+const weekDays = ['Inicio', 'Lunes 10', 'Martes 11', 'Miércoles 12', 'Jueves 13', 'Viernes 14', 'Viernes 21'];
 
 const sections = {
   Inicio: [],
@@ -231,7 +230,7 @@ const sections = {
     {
       id: 26,
       title: "11:00 AM - Conferencia 'Becas de Postgrado en Indonesia' + Baile tradicional y Muestra de Cultura y Arte",
-      description: "Handayani Lintang Purwaning Ayu, Jefa de la Sección Cultural, Social y de Información, tuvo a su cargo la Conferencia: 'Becas de Postgrado en Indonesia'. La Embajada de Indonesia presentó becas de postgrado para estudiantes peruanos, programas académicos y requisitos. Incluyó baile tradicional indonesio y muestra de cultura y arte. Oportunidad de intercambio académico y cultural Perú-Indonesia. Lugar: Auditorio Ollantaytambo. Organiza: Escuela Profesional de Ingeniería Industrial y Unidad de Extensión Cultural y Proyección Social.",
+      description: "El Decano de Ingeniería, Dr. Ing. Santiago Fidel Rojas Tuya, presenta a Handayani Lintang Purwaning Ayu, Jefa de la Sección Cultural, Social y de Información de la Embajada de Indonesia, quien expuso sobre becas de postgrado para estudiantes peruanos. El evento incluyó baile tradicional indonesio y muestra de cultura y arte, promoviendo el intercambio académico Perú-Indonesia. Lugar: Auditorio Ollantaytambo.",
       imageUrl: "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&h=600&fit=crop",
       carouselImages: ["/cambio1.jpg", "/cambio2.jpg", "/cambio3.jpg", "/cambio4.jpg", "/BAILE1.jpg"],
       videoLink: "https://www.facebook.com/share/v/14KGPERGB6a/"
@@ -241,6 +240,14 @@ const sections = {
       title: "3:00 PM - La importancia de la preservación de los recursos hídricos para la ciudad de Lima y Callao",
       description: "SEDAPAL presentó la gestión y preservación de recursos hídricos en Lima y Callao. Escasez hídrica, fuentes de agua (Rímac, Chillón, Lurín), proyectos de infraestructura, tratamiento de aguas y participación ciudadana. Rol de la ingeniería en soluciones sostenibles. Lugar: Auditorio Ollantaytambo. Organiza: Escuela Profesional de Ingeniería Industrial y Unidad de Extensión Cultural y Proyección Social.",
       imageUrl: "/CONFERENCIA2.jpg"
+    }
+  ],
+  'Viernes 14': [
+    {
+      id: 28,
+      title: "7:30 PM - Gran Cena de Confraternidad - Semana de la Facultad de Ingeniería",
+      description: "La comunidad de Ingeniería se reunió en la Gran Cena de Confraternidad, una noche especial de celebración y camaradería. El evento contó con un buffet internacional, orquesta en vivo y show artístico. Los docentes, estudiantes y autoridades compartieron en el restaurante Mandarin (Av. Javier Prado Este 1860), cerrando con broche de oro la Semana de la Facultad de Ingeniería 2025.",
+      imageUrl: "/viernes14.jpg"
     }
   ],
   'Viernes 21': [
@@ -499,7 +506,7 @@ const LandingPage = () => {
                         <img 
                           src="/afiche.jpg" 
                           alt="Afiche Semana de Ingeniería 2025"
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         />
                       </div>
                     </div>
