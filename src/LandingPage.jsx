@@ -101,7 +101,7 @@ const sections = {
     {
       id: 1,
       title: "9:30 AM - Acto Oficial de la Semana de la Facultad de Ingeniería",
-      description: "Ceremonia oficial con izamiento de pabellones por la Banda del Ejército, entonación de himnos y entrega de ofrenda floral. Participaron el Vicerrector Académico Dr. Héctor Hugo Sánchez Carlessi, Vicerrectora de Investigación Dra. Sandra Negro y Decano Dr. Ing. Santiago Fidel Rojas Tuya. Fotografía oficial en la Explanada URP.",
+      description: "Ceremonia oficial con izamiento de pabellones por la Banda del Ejército, entonación de himnos y entrega de ofrenda floral. Participaron el Vicerrector Académico Dr. Héctor Hugo Sánchez Carlessi, Vicerrectora de Investigación Dra. Sandra Negro y Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Fotografía oficial en la Explanada URP.",
       imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop",
       carouselImages: ["/BANDA.jpg", "/HIMNO.jpg", "/FLORES.jpg", "/FOTOGRUPAL.jpg"],
       videoLink: "https://www.facebook.com/share/v/1A7WmP2e3q/",
@@ -110,7 +110,7 @@ const sections = {
     {
       id: 2,
       title: "10:00 AM - Acto Académico de Inauguración",
-      description: "Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y discurso inaugural del Decano Dr. Ing. Santiago Fidel Rojas Tuya. Saludo del Embajador de Indonesia Sr. Ricky Suhendar y ponencia del Sr. Wahyu Agung Nugroho sobre cooperación Perú-Indonesia (CEPA). Premiación al Mérito Académico para estudiantes destacados 2024-II y 2025-I. Palabras del Rector, presentación del Grupo 'Canta Palma URP' y brindis de honor. Lugar: Auditorio Ollantaytambo.",
+      description: "Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y discurso inaugural del Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Saludo del Embajador de Indonesia Sr. Ricky Suhendar y ponencia del Sr. Wahyu Agung Nugroho sobre cooperación Perú-Indonesia (CEPA). Premiación al Mérito Académico para estudiantes destacados 2024-II y 2025-I. Palabras del Rector, presentación del Grupo 'Canta Palma URP' y brindis de honor. Lugar: Auditorio Ollantaytambo.",
       imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
       carouselImages: ["/AUDITORIO7.jpg", "/AUDITORIO8.jpg", "/AUDITORIO9.jpg", "/PREMIO4.jpg", "/PREMIO5.jpg"]
     },
@@ -254,7 +254,7 @@ const sections = {
     {
       id: 34,
       title: "5:30 PM - 6:00 PM - Ceremonia de Clausura de la Semana de la Facultad de Ingeniería",
-      description: "Cierre oficial de la Semana de Ingeniería. Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y clausura del Decano Dr. Ing. Santiago Fidel Rojas Tuya. Reconocimiento a docentes con 25 y 50 años de servicio. Premiación del IV Concurso de Fotografía URP. Mensaje inspirador sobre el futuro de la ingeniería peruana y compromiso con la excelencia académica.",
+      description: "Cierre oficial de la Semana de Ingeniería. Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y clausura del Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Reconocimiento a docentes con 25 y 50 años de servicio. Premiación del IV Concurso de Fotografía URP. Mensaje inspirador sobre el futuro de la ingeniería peruana y compromiso con la excelencia académica.",
       imageUrl: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop",
       carouselImages: ["/CLAUSURA.jpg", "/CLAUSURA2.jpg", "/CLAUSURA3.jpg", "/CLAUSURA4.jpg"],
       videoLink: "https://www.facebook.com/share/v/17GhxMY7CH/",
@@ -415,9 +415,9 @@ const LandingPage = () => {
                         saludo a toda la comunidad de la Facultad de Ingeniería, hacemos votos por el continuo 
                         crecimiento y desarrollo institucional de nuestra facultad.
                       </p>
-                      <div className="border-t-2 border-green-500 pt-4 md:pt-6 mt-4 md:mt-6">
+                      <div className="pt-4 md:pt-6 mt-4 md:mt-6">
                         <p className="text-lg sm:text-xl md:text-2xl font-bold text-green-700 mb-1 md:mb-2">DR. ING. SANTIAGO FIDEL ROJAS TUYA</p>
-                        <p className="text-base sm:text-lg md:text-xl font-semibold text-green-600">DECANO DE LA FACULTAD DE INGENIERÍA</p>
+                        <p className="text-base sm:text-lg md:text-xl font-semibold text-green-600 pb-3 md:pb-4 border-b-4 border-green-500 inline-block">DECANO DE LA FACULTAD DE INGENIERÍA</p>
                       </div>
                     </div>
                   </motion.div>
@@ -488,32 +488,53 @@ const LandingPage = () => {
             {/* Descripción de la Semana de Ingeniería */}
             <div className="bg-white py-8 md:py-16">
               <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                <motion.div 
-                  data-aos="zoom-in"
-                  className="relative"
-                >
-                  <div className="absolute -inset-2 bg-gradient-to-r from-green-400 via-emerald-500 to-teal-500 rounded-2xl md:rounded-3xl blur opacity-20 group-hover:opacity-30 transition duration-500"></div>
-                  <div className="relative bg-white rounded-2xl md:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-12 shadow-2xl border-2 border-green-200">
-                    <motion.h2 
-                      initial={{ scale: 0.9, opacity: 0 }}
-                      whileInView={{ scale: 1, opacity: 1 }}
-                      viewport={{ once: false }}
-                      className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 bg-clip-text text-transparent mb-4 md:mb-8"
-                    >
-                      Semana de Ingeniería 2025
-                    </motion.h2>
-                    <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed">
-                    La Semana de la Facultad de Ingeniería de la Universidad Ricardo Palma es el evento académico 
-                    y cultural más importante del año, donde convergen estudiantes, docentes, profesionales y empresas 
-                    del sector tecnológico e industrial. Durante cinco días completos, nuestra comunidad universitaria 
-                    participa en conferencias magistrales, talleres especializados, competencias técnicas, ferias de 
-                    proyectos y actividades de networking que fortalecen la formación integral de nuestros futuros 
-                    ingenieros. Este espacio permite el intercambio de conocimientos, la exposición de investigaciones 
-                    innovadoras y la creación de vínculos entre el mundo académico y el sector empresarial, consolidando 
-                    el compromiso de la URP con la excelencia educativa y el desarrollo tecnológico del país.
-                    </p>
-                  </div>
-                </motion.div>
+                <div className="flex flex-col md:flex-row gap-6 md:gap-12 items-center">
+                  {/* Imagen del Afiche */}
+                  <motion.div 
+                    data-aos="fade-right"
+                    className="flex-shrink-0 w-full md:w-auto"
+                  >
+                    <div className="relative">
+                      <div className="w-full max-w-sm mx-auto md:max-w-none md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] aspect-square rounded-2xl overflow-hidden shadow-xl">
+                        <img 
+                          src="/afiche.jpg" 
+                          alt="Afiche Semana de Ingeniería 2025"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </div>
+                  </motion.div>
+
+                  {/* Texto de Descripción */}
+                  <motion.div 
+                    data-aos="fade-left"
+                    className="flex-1"
+                  >
+                    <div className="relative">
+                      <div className="absolute -inset-2 bg-gradient-to-r from-green-400 via-emerald-500 to-teal-500 rounded-2xl md:rounded-3xl blur opacity-20 group-hover:opacity-30 transition duration-500"></div>
+                      <div className="relative bg-white rounded-2xl md:rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl border-2 border-green-200">
+                        <motion.h2 
+                          initial={{ scale: 0.9, opacity: 0 }}
+                          whileInView={{ scale: 1, opacity: 1 }}
+                          viewport={{ once: false }}
+                          className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 bg-clip-text text-transparent mb-4 md:mb-6"
+                        >
+                          Semana de Ingeniería 2025
+                        </motion.h2>
+                        <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
+                        La Semana de la Facultad de Ingeniería de la Universidad Ricardo Palma es el evento académico 
+                        y cultural más importante del año, donde convergen estudiantes, docentes, profesionales y empresas 
+                        del sector tecnológico e industrial. Durante cinco días completos, nuestra comunidad universitaria 
+                        participa en conferencias magistrales, talleres especializados, competencias técnicas, ferias de 
+                        proyectos y actividades de networking que fortalecen la formación integral de nuestros futuros 
+                        ingenieros. Este espacio permite el intercambio de conocimientos, la exposición de investigaciones 
+                        innovadoras y la creación de vínculos entre el mundo académico y el sector empresarial, consolidando 
+                        el compromiso de la URP con la excelencia educativa y el desarrollo tecnológico del país.
+                        </p>
+                      </div>
+                    </div>
+                  </motion.div>
+                </div>
               </div>
             </div>
           </div>
