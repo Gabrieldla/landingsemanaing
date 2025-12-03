@@ -137,7 +137,7 @@ const sections = {
     {
       id: 8,
       title: "11:30 AM - II Feria ConstruCivil 2025",
-      description: "Dra. Enriqueta Pereyra, Directora de la Escuela Profesional de Ingeniería Civil, inauguro la II FERIA CONSTRUCIVIL, conto con la participación de los docentes de la Escuela y diferentes empresas invitadas del área de la construcción, evento realizado en el Aulario de Inca Roca.",
+      description: "Dra. Enriqueta Pereyra, Directora de la Escuela Profesional de Ingeniería Civil, inauguró la II FERIA CONSTRUCIVIL, contó con la participación de los docentes de la Escuela y diferentes empresas invitadas del área de la construcción, evento realizado en el Aulario de Inca Roca.",
       imageUrl: "/feria12.jpg"
     },
     {
@@ -156,7 +156,7 @@ const sections = {
       id: 11,
       title: "5:00 PM - Fenómeno de la Corrosión en Estructuras de Concreto Armado",
       description: "Ing. William Baca Escobar abordó la corrosión del acero en concreto armado. Mecanismos de corrosión, factores ambientales, técnicas de prevención, protección catódica y métodos de reparación estructural. Estrategias para estructuras durables. Lugar: Auditorio Ollantaytambo. Organiza: Escuela Profesional de Ingeniería Civil.",
-      imageUrl: "/CONFERENCIA3MARTES1.jpg"
+      imageUrl: "/INGBACA.jpg"
     },
     {
       id: 12,
@@ -206,7 +206,7 @@ const sections = {
       id: 20,
       title: "4:00 PM - IA y Educación Superior: Oportunidades y Desafíos",
       description: "Mg. Luis Piedra Rubio expuso sobre IA en educación superior. Oportunidades para personalizar aprendizaje, automatizar evaluaciones y mejorar experiencia estudiantil. Desafíos éticos, técnicos y pedagógicos: privacidad, equidad y formación docente. Lugar: Vía Zoom. Organiza: Biblioteca Virtual de Ingeniería.",
-      imageUrl: "/CONFERENCIA5MIERCOLEA.jpg"
+      imageUrl: "/ingpiedra.png"
     },
     {
       id: 21,
