@@ -495,10 +495,10 @@ const LandingPage = () => {
             {/* Descripción de la Semana de Ingeniería */}
             <div className="bg-white py-8 md:py-16">
               <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                <div className="flex flex-col md:flex-row gap-6 md:gap-12 items-center">
+                <div className="flex flex-col md:flex-row-reverse gap-6 md:gap-12 items-center">
                   {/* Imagen del Afiche */}
                   <motion.div 
-                    data-aos="fade-right"
+                    data-aos="fade-left"
                     className="flex-shrink-0 w-full md:w-auto"
                   >
                     <div className="relative">
@@ -514,7 +514,7 @@ const LandingPage = () => {
 
                   {/* Texto de Descripción */}
                   <motion.div 
-                    data-aos="fade-left"
+                    data-aos="fade-right"
                     className="flex-1"
                   >
                     <div className="relative">
