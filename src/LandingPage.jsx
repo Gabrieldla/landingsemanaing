@@ -232,7 +232,7 @@ const sections = {
       title: "11:00 AM - Conferencia 'Becas de Postgrado en Indonesia' + Baile tradicional y Muestra de Cultura y Arte",
       description: "El Decano de Ingeniería, Dr. Ing. Santiago Fidel Rojas Tuya, presenta a Handayani Lintang Purwaning Ayu, Jefa de la Sección Cultural, Social y de Información de la Embajada de Indonesia, quien expuso sobre becas de postgrado para estudiantes peruanos. El evento incluyó baile tradicional indonesio y muestra de cultura y arte, promoviendo el intercambio académico Perú-Indonesia. Lugar: Auditorio Ollantaytambo.",
       imageUrl: "https://images.unsplash.com/photo-1528127269322-539801943592?w=800&h=600&fit=crop",
-      carouselImages: ["/cambio1.jpg", "/cambio2.jpg", "/cambio3.jpg", "/cambio4.jpg", "/BAILE1.jpg"],
+      carouselImages: ["/cambio2.jpg", "/cambio1.jpg", "/cambio3.jpg", "/cambio4.jpg", "/BAILE1.jpg"],
       videoLink: "https://www.facebook.com/share/v/14KGPERGB6a/"
     },
     {
@@ -261,7 +261,7 @@ const sections = {
     {
       id: 34,
       title: "5:30 PM - 6:00 PM - Ceremonia de Clausura de la Semana de la Facultad de Ingeniería",
-      description: "Cierre oficial de la Semana de Ingeniería. Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y clausura del Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Reconocimiento a docentes con 25 y 50 años de servicio. Premiación del IV Concurso de Fotografía URP. Mensaje inspirador sobre el futuro de la ingeniería peruana y compromiso con la excelencia académica.",
+      description: "Cierre oficial de la Semana de Ingeniería. Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y clausura del Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Reconocimiento a docentes con 25 y 50 años de servicio. Premiación del IV Concurso de Fotografía URP. Mensaje inspirador sobre el futuro de la ingeniería peruana y compromiso con la excelencia académica. La ceremonia cerró con un brindis de honor.",
       imageUrl: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop",
       carouselImages: ["/CLAUSURA.jpg", "/CLAUSURA2.jpg", "/CLAUSURA3.jpg", "/CLAUSURA4.jpg"],
       videoLink: "https://www.facebook.com/share/v/17GhxMY7CH/",
