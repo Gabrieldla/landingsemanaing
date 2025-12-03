@@ -100,7 +100,7 @@ const sections = {
     {
       id: 1,
       title: "9:30 AM - Acto Oficial de la Semana de la Facultad de Ingeniería",
-      description: "Ceremonia oficial con izamiento de pabellones por la Banda del Ejército, entonación de himnos y entrega de ofrenda floral. Participaron el Vicerrector Académico Dr. Héctor Hugo Sánchez Carlessi, Vicerrectora de Investigación Dra. Sandra Negro y Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Fotografía oficial en la Explanada URP.",
+      description: "Ceremonia oficial con izamiento de pabellones por la Banda del Ejército, entonación de himnos y entrega de ofrenda floral. Participaron el Vicerrector Académico Dr. Héctor Hugo Sánchez Carlessi, Vicerrectora de Investigación Dra. Sandra Negro y Decano de Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Fotografía oficial en la Explanada URP.",
       imageUrl: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=600&fit=crop",
       carouselImages: ["/BANDA.jpg", "/HIMNO.jpg", "/FLORES.jpg", "/FOTOGRUPAL.jpg"],
       videoLink: "https://www.facebook.com/share/v/1A7WmP2e3q/",
@@ -109,7 +109,7 @@ const sections = {
     {
       id: 2,
       title: "10:00 AM - Acto Académico de Inauguración",
-      description: "Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y discurso inaugural del Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Saludo del Embajador de Indonesia Sr. Ricky Suhendar y ponencia del Sr. Wahyu Agung Nugroho sobre cooperación Perú-Indonesia (CEPA). Premiación al Mérito Académico para estudiantes destacados 2024-II y 2025-I. Palabras del Rector, presentación del Grupo 'Canta Palma URP' y brindis de honor. Lugar: Auditorio Ollantaytambo.",
+      description: "Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y discurso inaugural del Decano de Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Saludo del Embajador de Indonesia Sr. Ricky Suhendar y ponencia del Sr. Wahyu Agung Nugroho sobre cooperación Perú-Indonesia (CEPA). Premiación al Mérito Académico para estudiantes destacados 2024-II y 2025-I. Palabras del Rector, presentación del Grupo 'Canta Palma URP' y brindis de honor. Lugar: Auditorio Ollantaytambo.",
       imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
       carouselImages: ["/AUDITORIO7.jpg", "/AUDITORIO8.jpg", "/AUDITORIO9.jpg", "/PREMIO4.jpg", "/PREMIO5.jpg"]
     },
@@ -174,7 +174,7 @@ const sections = {
     {
       id: 14,
       title: "Inauguración del Ciclo de Conferencias Internacionales Tecnológicas",
-      description: "Dra. Alicia Chiok, Guerra, Jefe de la Biblioteca Virtual de Ingeniería, inauguro el Ciclo de Conferencias Internacionales Tecnológicas, evento organizado por la BVI.",
+      description: "Dra. Alicia Chiok Guerra, Jefa de la Biblioteca Virtual de Ingeniería, inauguró el Ciclo de Conferencias Internacionales Tecnológicas, evento organizado por la BVI.",
       imageUrl: "/innauguracion.jpg"
     },
     {
@@ -261,7 +261,7 @@ const sections = {
     {
       id: 34,
       title: "5:30 PM - 6:00 PM - Ceremonia de Clausura de la Semana de la Facultad de Ingeniería",
-      description: "Cierre oficial de la Semana de Ingeniería. Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y clausura del Decano De Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Reconocimiento a docentes con 25 y 50 años de servicio. Premiación del IV Concurso de Fotografía URP. Mensaje inspirador sobre el futuro de la ingeniería peruana y compromiso con la excelencia académica. La ceremonia cerró con un brindis de honor.",
+      description: "Cierre oficial de la Semana de Ingeniería. Palabras de bienvenida de la Dra. Ing. Esther Joni Vargas Chang y clausura del Decano de Ingeniería Dr. Ing. Santiago Fidel Rojas Tuya. Reconocimiento a docentes con 25 y 50 años de servicio. Premiación del IV Concurso de Fotografía URP. Mensaje inspirador sobre el futuro de la ingeniería peruana y compromiso con la excelencia académica. La ceremonia cerró con un brindis de honor.",
       imageUrl: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&h=600&fit=crop",
       carouselImages: ["/CLAUSURA.jpg", "/CLAUSURA2.jpg", "/CLAUSURA3.jpg", "/CLAUSURA4.jpg"],
       videoLink: "https://www.facebook.com/share/v/17GhxMY7CH/",
@@ -412,10 +412,10 @@ const LandingPage = () => {
                   >
                     <div className="bg-white rounded-xl md:rounded-2xl p-4 sm:p-6 md:p-8 border-2 border-green-200 shadow-xl">
                       <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-4 md:mb-6 text-gray-700">
-                        El Decano de la Facultad de Ingeniería, presenta en esta oportunidad 
+                        El Decano de la Facultad de Ingeniería presenta en esta oportunidad 
                         una edición especial de las principales actividades realizadas por el 56° 
-                        Aniversario de la Facultad de Ingeniería, en donde las Facultad de Ingeniería 
-                        ha sido unas las de las primeras facultades que se implementaron desde su creación.
+                        Aniversario de la Facultad de Ingeniería, en donde la Facultad de Ingeniería 
+                        ha sido una de las primeras facultades que se implementaron desde su creación.
                       </p>
                       <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-6 md:mb-8 text-gray-700">
                         A nombre del Consejo de Facultad de Ingeniería, brindamos un cordial 
